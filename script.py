@@ -78,7 +78,7 @@ def load_file_to_bigquery(uri):
 
 
 if __name__ == "__main__":
-    url = f"{ENDPOINT}/{','.join(STOCKS)}?serietype=line&apikey={API_KEY}"
+    url = f"{ENDPOINT}/{','.join(STOCKS)}&apikey={API_KEY}"
     data = get_historical_data(url)
     cleaned_data = process_data(data)
     
