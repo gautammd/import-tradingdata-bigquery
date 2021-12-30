@@ -7,7 +7,7 @@ import pandas as pd
 
 API_KEY = ""
 ENDPOINT = "https://financialmodelingprep.com/api/v3/historical-price-full"
-STOCKS = ["SPY"]
+STOCKS = ["SPY", "APPL", "GOOGL"]
 
 # GOOGLE CLOUD SETTINGS
 CLOUD_PROJECT_ID = ""
